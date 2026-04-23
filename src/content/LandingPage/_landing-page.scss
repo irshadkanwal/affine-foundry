@@ -1,0 +1,105 @@
+/* stylelint-disable */
+.landing-page-card-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: calc(100vh - 7rem);
+}
+.landing-page-card {
+  background-color: white;
+}
+
+.landing-page-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 15px;
+}
+
+.landing-page-card-header p {
+  font-weight: 600;
+}
+.landing-page-top-cards {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.top_combined_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  width: 33%;
+}
+.landing-page-bottom-cards {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+}
+.card_sla {
+  width: 33%;
+}
+.card_data {
+  width: 33%;
+}
+.card_inventory {
+  width: 32.5%;
+}
+.card_health {
+  width: 66.5%;
+}
+.top_combined_cards > div {
+  height: 100%;
+}
+.card_custom_hr {
+  height: 0.5px;
+  border: 1px solid #e0e0e0;
+}
+.package_list_item {
+  display: flex;
+  padding: 10px 0 12px 15px;
+  margin-left: -15px;
+  color: #0f62fe;
+  cursor: pointer;
+}
+.package_list {
+  padding: 0 15px 5px;
+}
+.landing-page-card-body-row {
+  display: flex;
+  padding: 0 15px 20px 15px;
+
+}
+
+.body_container {
+  padding: 0 15px;
+}
+
+.data_card_div_title {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.data_card_details {
+  padding: 12px 0;
+}
+
+.data_card_div_value {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.landing-page-legend {
+  display: flex;
+  margin: 0 20px;
+  flex-wrap: wrap;
+}
+.landing-page-legend-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  p {
+    margin-left: 5px;
+  }
+}
