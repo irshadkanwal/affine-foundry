@@ -1,0 +1,29 @@
+/* stylelint-disable */
+
+.transformation_grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.transformation_card {
+  padding: 5px 2px 15px 15px;
+  height: auto;
+  background: white;
+  width: calc(33.33% - 14px);
+}
+.cds--snippet.cds--snippet--multi > .cds--snippet-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .transformation_card {
+    width: calc(50% - 14px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .transformation_card {
+    width: 100%;
+  }
+}

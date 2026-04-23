@@ -1,0 +1,67 @@
+/* stylelint-disable */
+
+.data-package-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.data-package-card {
+  height: auto;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  gap: "20px";
+  width: calc(33.33% - 14px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 9px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .data-package-card {
+    width: calc(50% - 14px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .data-package-card {
+    width: 100%;
+  }
+}
+
+.data-package-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 0 14px;
+}
+
+.data-package-card-body-row {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 0 0 20px 15px;
+}
+
+.data-package-card-body-row.description {
+  padding-top: 10px;
+}
+
+.custom-list li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.custom-list li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 14px;
+  width: 1px;
+  height: 100%;
+  background-color: gray;
+  margin-left: -5px;
+}
+.refresh-dropdown .cds--dropdown.cds--list-box .cds--list-box__menu {
+  height: 80px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,48 @@
+/* stylelint-disable */
+
+.display_flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jobruns_grid_container {
+  height: auto;
+}
+
+.jobruns_card {
+  height: 20rem;
+}
+
+.jobruns_card_width {
+  width: 60%;
+}
+
+.jobruns_card_width__ {
+  width: 38%;
+}
+
+.jobruns_table_card {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+  .jobruns_grid_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .jobruns_card_width {
+    width: 100%;
+  }
+  .jobruns_card_width__ {
+    width: 100%;
+  }
+}

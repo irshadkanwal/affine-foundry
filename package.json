@@ -1,0 +1,121 @@
+{
+  "name": "affine-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^2.3.0",
+    "@babel/core": "^7.26.7",
+    "@babel/plugin-syntax-flow": "^7.22.5",
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "@carbon/charts-react": "^1.22.18",
+    "@carbon/elements": "^11.26.1",
+    "@carbon/pictograms": "^12.20.0",
+    "@carbon/react": "^1.30.0",
+    "@carbon/styles": "^1.34.1",
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/lang-python": "^6.1.7",
+    "@tanstack/react-query": "^4.29.19",
+    "@tanstack/react-query-devtools": "^4.29.12",
+    "@testing-library/dom": "^9.3.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "@uiw/react-codemirror": "^4.23.7",
+    "antd": "^5.8.4",
+    "carbon-components-react": "^8.34.0",
+    "d3": "^7.8.5",
+    "d3-cloud": "^1.2.5",
+    "d3-path": "^3.1.0",
+    "d3-sankey": "^0.12.3",
+    "echarts": "^5.4.2",
+    "echarts-for-react": "^3.0.2",
+    "elkjs": "^0.8.2",
+    "formik": "^2.4.2",
+    "react": "^18.2.0",
+    "react-cookie": "^7.2.2",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.10",
+    "react-flow": "^1.0.3",
+    "react-flow-renderer": "^10.3.17",
+    "react-hot-toast": "^2.5.2",
+    "react-js-cron": "^4.1.0",
+    "react-query": "^3.39.2",
+    "react-ranger": "^2.1.0",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5",
+    "reaflow": "5.3.4",
+    "sass": "^1.64.2",
+    "typescript": "^5.1.6",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^3.4.0",
+    "yup": "^1.2.0"
+  },
+  "resolutions": {
+    "body-parser": "^1.20.3",
+    "path-to-regexp": "^0.1.12",
+    "nth-check": "^2.0.1",
+    "serialize-javascript": "^6.0.2",
+    "webpack": "^5.94.0",
+    "micromatch": "^4.0.8",
+    "postcss": "^8.4.31"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/ --ext .js,.jsx,.ts",
+    "lint:js:fix": "yarn lint:js --fix",
+    "lint:scss": "stylelint 'src/**/*.{css,scss}'",
+    "lint:scss:fix": "yarn lint:scss --fix",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "postcss": "^8.4.27",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint-scss": "^5.0.1",
+    "webpack": "^5.88.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts}": [
+      "yarn lint:js"
+    ],
+    "src/**/*.{css,scss}": [
+      "yarn lint:scss"
+    ]
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(echarts|zrender))"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 80
+      }
+    }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

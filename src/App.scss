@@ -1,0 +1,61 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+@use './components/Header/header';
+@use './components/Info/info';
+@use './content/UIShell/UIShell';
+@use './components/Card/card';
+@use './components/DataPackage/data-package';
+@use './components/DataResources/data-resource';
+@use './components/ReferenceData/reference-data';
+@use './components/DataHealth/DataQualityDashboard/data-quality-dashboard';
+@use './components/DataHealth/DataInventory/data-inventory';
+@use './components/Workflow/JobRuns/job-runs';
+@use './components/WorkBench/Transformation/tansformation';
+@use './components/DataHealth/DataLineage/data-lineage.scss';
+@use './components/UserSettings/user-settings.scss';
+@use './components/DataClasses/data-classes.scss';
+
+/* stylelint-disable */
+
+.app .cds--content {
+  margin-top: 3rem;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.ag-paging-panel {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-field {
+  width: 100%;
+  height: 2.5rem;
+}
+
+.search__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__name {
+  font-size: 12px;
+  font-weight: lighter;
+}
+// This structure should be the same for all modal from carbon design
+.hide-primary-button {
+  > .cds--modal-container {
+    > .cds--modal-footer {
+      > .cds--btn--primary,
+      > .cds--btn--secondary {
+        display: none;
+      }
+    }
+  }
+}
