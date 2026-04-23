@@ -1,0 +1,17 @@
+.card {
+  width: 325.33px;
+  height: 206px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+
+  /* Add any other desired styles */
+  @media (width <= 767px) {
+    .card {
+      width: 100%; /* Make the card full width on smaller screens */
+      height: auto; /* Let the height adjust based on content */
+
+      /* Adjust any other necessary styles for smaller screens */
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/* stylelint-disable */
+
+@media (width >= 66rem) {
+  .content {
+    margin-left: 16rem;
+    min-height: calc(100vh - 70px);
+  }
+}
+
+@media (width >= 66rem) {
+  .sidebar__close {
+    margin-left: 4rem;
+    min-height: calc(100vh - 70px);
+  }
+}
+
+.sidenav__bar {
+  background-color: white;
+}

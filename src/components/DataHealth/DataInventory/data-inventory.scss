@@ -1,0 +1,51 @@
+/* stylelint-disable */
+
+.inventory_grid_container {
+  height: auto;
+  margin: 20px 0;
+}
+
+.display_flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex_detween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inventory_card {
+  background: white;
+  height: 20rem;
+  padding: 20px;
+}
+
+.inventory_table_card {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card_width {
+  width: 40%;
+}
+
+.card_width__ {
+  width: 17%;
+}
+
+@media screen and (max-width: 1300px) {
+  .inventory_grid_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .card_width {
+    width: 80%;
+  }
+  .card_width__ {
+    width: 80%;
+  }
+}

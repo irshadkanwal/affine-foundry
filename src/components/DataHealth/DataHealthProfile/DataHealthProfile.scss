@@ -1,0 +1,53 @@
+/* stylelint-disable */
+
+.grid_container_ {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.top_card {
+  height: auto;
+  background: white;
+  width: calc(50% - 10px);
+}
+.bottom_card {
+  height: 27rem;
+  background: white;
+  width: calc(50% - 10px);
+}
+
+.correlation_table {
+  background: white;
+}
+@media screen and (max-width: 1200px) {
+  .top_card {
+    width: 100%;
+  }
+  .bottom_card {
+    width: 100%;
+  }
+}
+
+.card_content {
+  padding: 20px;
+}
+.card_correlation {
+  height: 726px;
+  overflow-y: scroll;
+  width: 100%;
+}
+.display_flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cds--progress-bar > .cds--progress-bar__track {
+  background-color: #cacaca;
+}

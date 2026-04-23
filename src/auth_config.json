@@ -1,0 +1,5 @@
+{
+    "domain": "dev-affinehealth.us.auth0.com",
+    "clientId": "jZH74PjiiOrdLLJpNfZWXv64lV81uqQ2",
+    "audience": "https://myapp.affine-health.io/api/"
+  }
